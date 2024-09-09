@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "build":"tsc",
+    "watch":"tsc -w",
+    "start":"npm run dev",
+    "dev": "node dist/save-person.js"
+  },
+  "dependencies": {
+    "@types/node": "^22.5.4",
+    "@types/sqlite3": "^3.1.11",
+    "sqlite3": "^5.1.7",
+    "typeorm": "^0.3.20",
+    "typescript": "^5.5.4"
+  }
+}
